@@ -1,41 +1,43 @@
+/* Ensure the header and social links are styled */
+header {
+    position: relative;
+    padding: 20px;
+    background-color: #f4f4f4; /* Adjust background color as needed */
+}
+
+.social-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.social-link {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.social-link img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    vertical-align: middle;
+}
+
+/* Style the rest of the page */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.header-logo {
-    width: 40px;
-    height: 40px;
-    margin: 10px;
-}
-
-.header-logo img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 main {
     padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
