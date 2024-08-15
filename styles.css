@@ -2,7 +2,8 @@
 header {
     position: relative;
     padding: 20px;
-    background-color: #f4f4f4; /* Adjust background color as needed */
+    background-color: #f4f4f4; /* Ensure the header background color */
+    border-bottom: 1px solid #ddd; /* Optional: adds a border for separation */
 }
 
 .social-links {
